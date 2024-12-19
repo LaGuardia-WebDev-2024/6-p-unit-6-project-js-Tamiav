@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   margin-top: 10%;
+  
 }
 
 html{
@@ -15,6 +16,10 @@ html{
 #myCanvas {
   border-radius: 30px;
   border: 15px double #8bbcbbff;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  background-image: url("https://i.pinimg.com/736x/53/34/34/533434fe83d9c3431b9e220a4227bb7f.jpg")
 }
 
 .container{
